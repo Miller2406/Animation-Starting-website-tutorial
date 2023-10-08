@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: .3s;
+}
+
+body {
+    /* background-color: #eaeaea; */
+    /* height: 3000px; */
+}
+
+header {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 8% 10px;
+    background-color: #eaeaea;
+}
+
+header .logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #222;
+    text-decoration: none;
+}
+
+nav {
+    /* background-color: aquamarine; */
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #222;
+    margin: 0 10px;
+    border: 3px solid transparent;
+    border-radius: 16px;
+    padding: 5px 12px;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+    border-color: white;
+    background-color: #222;
+}
+
+.Social-media {
+    /* background-color: aqua; */
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Social-media a {
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #222;
+    text-decoration: none;
+    transform: rotate(45deg);
+}
+
+.Social-media a i {
+    transform: rotate(-45deg);
+    font-size: 20px;
+}
+
+.Social-media a:hover {
+    border-color: white;
+    color: white;
+    background-color: #222;
+}
+
+.content {
+    top: 30px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin: 30px 8% 10px;
+}
+
+.home-content {
+    position: absolute;
+    max-width: 620px;
+    top: 50px;
+}
+
+.home-content h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.home-content h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.home-content p {
+    margin: 20px 0 20px;
+}
+
+.learn-more {
+    border: 3px solid transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #2222227c;
+}
+
+.learn-more:hover {
+    color: white;
+    border-color: #222;
+    background-color: #222;
+}
+
+
+.car {
+    position: absolute;
+    right: -30px;
+    top: -40px;
+    width: 500px;
+    height: 500px;
+}
+
+.car-img img {
+    max-width: 700px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+.carbg1 {
+    border: 10px solid #222;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    background-color: #e3e3e3a5;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+footer div {
+    font-size: 10px;
+
+}
+
+
+/* ANIMATIONS */
+
+/* RESPONSIVE */
